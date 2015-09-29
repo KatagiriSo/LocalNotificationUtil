@@ -13,6 +13,7 @@
 		32FCA3581BBA766300959C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FCA3571BBA766300959C02 /* Images.xcassets */; };
 		32FCA35B1BBA766300959C02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FCA3591BBA766300959C02 /* LaunchScreen.xib */; };
 		32FCA3671BBA766300959C02 /* LocalNotifyUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FCA3661BBA766300959C02 /* LocalNotifyUtilityTests.swift */; };
+		32FCA3711BBA769100959C02 /* LocalNotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FCA3701BBA769100959C02 /* LocalNotificationUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		32FCA3601BBA766300959C02 /* LocalNotifyUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotifyUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FCA3651BBA766300959C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32FCA3661BBA766300959C02 /* LocalNotifyUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifyUtilityTests.swift; sourceTree = "<group>"; };
+		32FCA3701BBA769100959C02 /* LocalNotificationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalNotificationUtil.swift; path = ../LocalNotificationUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		32FCA34D1BBA766300959C02 /* LocalNotifyUtility */ = {
 			isa = PBXGroup;
 			children = (
+				32FCA3701BBA769100959C02 /* LocalNotificationUtil.swift */,
 				32FCA3501BBA766300959C02 /* AppDelegate.swift */,
 				32FCA3521BBA766300959C02 /* ViewController.swift */,
 				32FCA3541BBA766300959C02 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				32FCA3531BBA766300959C02 /* ViewController.swift in Sources */,
 				32FCA3511BBA766300959C02 /* AppDelegate.swift in Sources */,
+				32FCA3711BBA769100959C02 /* LocalNotificationUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
