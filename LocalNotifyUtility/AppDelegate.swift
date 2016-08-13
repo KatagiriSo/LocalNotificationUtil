@@ -46,12 +46,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     func application(application: UIApplication, handleActionWithIdentifier identifier: String?, forLocalNotification notification: UILocalNotification, completionHandler: () -> Void) {
-        println("handleActionWithIdentifier\(identifier)")
+        print("handleActionWithIdentifier\(identifier)")
         completionHandler();
     }
     
     func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
-        println("didReceiveLocalNotification\(notification.description)")
+        print("didReceiveLocalNotification\(notification.description)")
     }
     
 

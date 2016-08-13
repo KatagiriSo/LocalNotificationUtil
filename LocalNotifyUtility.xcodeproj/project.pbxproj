@@ -159,6 +159,8 @@
 		32FCA3431BBA766300959C02 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = SoKatagiri;
 				TargetAttributes = {
@@ -413,6 +415,7 @@
 				32FCA36C1BBA766300959C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FCA36D1BBA766300959C02 /* Build configuration list for PBXNativeTarget "LocalNotifyUtilityTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +424,7 @@
 				32FCA36F1BBA766300959C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -34,9 +34,9 @@ class LocalNotificationUtil: NSObject {
     
 
     func getSampleNotification()->UILocalNotification {
-        println("setNotification")
+        print("setNotification")
         
-        var setting = UIUserNotificationSettings(forTypes: types, categories: nil)
+        let setting = UIUserNotificationSettings(forTypes: types, categories: nil)
         UIApplication.sharedApplication().registerUserNotificationSettings(setting)
         
         return setUpAlert(setUpTime(UILocalNotification()))
